@@ -1,0 +1,171 @@
+// this is a generated file
+
+toad::TMenuLayout{
+  scope = "toplevel"
+  toad::TMenuEntry {
+    name = "file"
+    label = "File"
+    shortcut = ""
+    icon = ""
+    toad::TMenuEntry {
+      name = "new"
+      label = "New"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "newview"
+      label = "New View"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "open"
+      label = "Open"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "save"
+      label = "Save"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "save_as"
+      label = "Save As.."
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "close"
+      label = "Close"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuSeparator { }
+    toad::TMenuEntry {
+      name = "exit"
+      label = "Quit"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "newview"
+      label = "New View"
+      shortcut = ""
+      icon = ""
+    }
+  }
+  toad::TMenuEntry {
+    name = "edit"
+    label = "Edit"
+    shortcut = ""
+    icon = ""
+    toad::TMenuEntry {
+      name = "undo"
+      label = "Undo"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "redo"
+      label = "Redo"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuSeparator { }
+    toad::TMenuEntry {
+      name = "new_track"
+      label = "New Track"
+      shortcut = ""
+      icon = ""
+      toad::TMenuEntry {
+        name = "midi"
+        label = "MIDI"
+        shortcut = ""
+        icon = ""
+      }
+      toad::TMenuEntry {
+        name = "audio"
+        label = "Audio"
+        shortcut = ""
+        icon = ""
+      }
+      toad::TMenuEntry {
+        name = "video"
+        label = "Video"
+        shortcut = ""
+        icon = ""
+      }
+    }
+    toad::TMenuEntry {
+      name = "delete_track"
+      label = "Delete Track"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuSeparator { }
+    toad::TMenuEntry {
+      name = "cut"
+      label = "Cut"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "copy"
+      label = "Copy"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "paste"
+      label = "Paste"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "cut"
+      label = "Cut"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "delete"
+      label = "Delete"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "select_all"
+      label = "Select All"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuSeparator { }
+    toad::TMenuEntry {
+      name = "preferences"
+      label = "Preferences"
+      shortcut = ""
+      icon = ""
+    }
+  }
+  toad::TMenuEntry {
+    name = "help"
+    label = "Help"
+    shortcut = ""
+    icon = ""
+    toad::TMenuEntry {
+      name = "about"
+      label = "About"
+      shortcut = ""
+      icon = ""
+    }
+    toad::TMenuEntry {
+      name = "copyright"
+      label = "Copyright"
+      shortcut = ""
+      icon = ""
+    }
+  }
+}

@@ -1,0 +1,187 @@
+// this is a generated file
+
+toad::TDialogLayout{
+  width = 157
+  height = 0
+  drawfocus = false
+  toad::TFigureModel {
+    toad::TFWindow {
+      x = 32
+      y = 44
+      w = 121
+      h = 21
+      title = "trackname"
+      taborder = 0
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 8
+      y = 48
+      w = 23
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Trk:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 4
+      y = 168
+      w = 28
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Chn:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 4
+      y = 192
+      w = 28
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Bnk:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 4
+      y = 216
+      w = 26
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Prg:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 0
+      y = 240
+      w = 32
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Map:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 16
+      y = 120
+      w = 15
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "in:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 8
+      y = 144
+      w = 22
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "out:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 8
+      y = 72
+      w = 23
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Vol:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 4
+      y = 96
+      w = 29
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "Pan:"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 52
+      y = 4
+      w = 55
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "M S R W"
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 52
+      y = 20
+      w = 47
+      h = 19
+      fontname = "arial,helvetica,sans-serif:size=12"
+      text = "O < ? L"
+    }
+    toad::TFRectangle {
+      linecolor ={ 0 0 0 }
+      x = 4
+      y = 4
+      w = 149
+      h = 33
+    }
+    toad::TFWindow {
+      x = 32
+      y = 188
+      w = 45
+      h = 21
+      title = "bank"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 164
+      w = 45
+      h = 21
+      title = "channel"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 116
+      w = 121
+      h = 21
+      title = "in"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 236
+      w = 121
+      h = 21
+      title = "map"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 140
+      w = 121
+      h = 21
+      title = "out"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 92
+      w = 49
+      h = 21
+      title = "pan"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 212
+      w = 45
+      h = 21
+      title = "program"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 32
+      y = 68
+      w = 49
+      h = 21
+      title = "volume"
+      taborder = 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+// this is a generated file
+
+toad::TDialogLayout{
+  width = 265
+  height = 33
+  drawfocus = false
+  toad::TFigureModel {
+    toad::TFWindow {
+      x = 192
+      y = 4
+      w = 33
+      h = 25
+      title = "Play"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 228
+      y = 4
+      w = 33
+      h = 25
+      title = "Record"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 156
+      y = 4
+      w = 33
+      h = 25
+      title = "Stop"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 124
+      y = 4
+      w = 29
+      h = 25
+      title = "Cycle"
+      label = "(_)"
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 64
+      y = 4
+      w = 33
+      h = 25
+      title = "Forward"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 100
+      y = 4
+      w = 21
+      h = 25
+      title = "Next"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 4
+      y = 4
+      w = 21
+      h = 25
+      title = "Prev"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 28
+      y = 4
+      w = 33
+      h = 25
+      title = "Rewind"
+      label = ""
+      taborder = 0
+    }
+  }
+}

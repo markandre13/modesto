@@ -1,0 +1,136 @@
+// this is a generated file
+
+toad::TDialogLayout{
+  width = 320
+  height = 200
+  drawfocus = false
+  toad::TFigureModel {
+    toad::TFWindow {
+      x = 84
+      y = 68
+      w = 77
+      h = 33
+      title = "Play"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 84
+      y = 104
+      w = 77
+      h = 33
+      title = "Record"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 164
+      y = 68
+      w = 73
+      h = 69
+      title = "Stop"
+      label = ""
+      taborder = 0
+    }
+    toad::TFText {
+      linecolor ={ 0 0 0 }
+      x = 84
+      y = 4
+      w = 154
+      h = 16
+      text = "MIDI Sequencer Experiment"
+    }
+    toad::TFWindow {
+      x = 84
+      y = 168
+      w = 77
+      h = 25
+      title = "Load"
+      label = ""
+      taborder = 0
+    }
+    toad::TFWindow {
+      x = 164
+      y = 168
+      w = 77
+      h = 25
+      title = "Save"
+      label = ""
+      taborder = 0
+    }
+    toad::TFGroup {
+      toad::TFRectangle {
+        linecolor ={ 0 0 0 }
+        fillcolor ={ 255 255 255 }
+        x = 20
+        y = 20
+        w = 285
+        h = 41
+      }
+      toad::TFLine {
+        x1 = 20
+        y1 = 28
+        x2 = 304
+        y2 = 28
+        linecolor ={ 0 0 0 } }
+      toad::TFLine {
+        x1 = 304
+        y1 = 36
+        x2 = 20
+        y2 = 36
+        linecolor ={ 0 0 0 } }
+      toad::TFLine {
+        x1 = 20
+        y1 = 44
+        x2 = 304
+        y2 = 44
+        linecolor ={ 0 0 0 } }
+      toad::TFLine {
+        x1 = 304
+        y1 = 52
+        x2 = 20
+        y2 = 52
+        linecolor ={ 0 0 0 } }
+      toad::TFCircle {
+        linecolor ={ 0 0 0 }
+        fillcolor ={ 0 0 0 }
+        x = 36
+        y = 32
+        w = 9
+        h = 9
+      }
+      toad::TFCircle {
+        linecolor ={ 0 0 0 }
+        fillcolor ={ 0 0 0 }
+        x = 60
+        y = 36
+        w = 9
+        h = 9
+      }
+      toad::TFCircle {
+        linecolor ={ 0 0 0 }
+        fillcolor ={ 0 0 0 }
+        x = 80
+        y = 20
+        w = 9
+        h = 9
+      }
+      toad::TFCircle {
+        linecolor ={ 0 0 0 }
+        fillcolor ={ 0 0 0 }
+        x = 120
+        y = 36
+        w = 9
+        h = 9
+      }
+      toad::TFCircle {
+        linecolor ={ 0 0 0 }
+        fillcolor ={ 0 0 0 }
+        x = 148
+        y = 48
+        w = 9
+        h = 9
+      }
+    }
+  }
+}

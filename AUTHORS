@@ -1,0 +1,11 @@
+Mark-André Hopf <mhopf@mark13.de>
+  GUI and IEEE1394 handling
+
+Rolf Dubitzky <dubitzky@pktw06.phy.tu-dresden.de>
+  Render Engine (not yet in this release)
+  
+Some code was taken from
+
+Arne Schirmacher <arne@schirmacher.de>, et al.
+  The sources of 'dvgrab' and 'kino' are a wonderfull source of wisdom
+  as it contains important code to handle DV data that is missing in libdv.

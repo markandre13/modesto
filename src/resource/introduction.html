@@ -1,0 +1,92 @@
+<html>
+  <head>
+  </head>
+  
+  <body>
+  
+    <h1 align="center">Modesto - Introduction</h1>
+      [ prev ] 
+      [ <a href="index.html">up</a> ]
+      [ <a href="transportpanel.html">next</a> ]
+    <hr>
+    
+    <p>
+    Modesto is still <b>under construction</b> and currently only able to
+    </p>
+    
+    <ul>
+      <li>Load and play MIDI files on /dev/midi (default) and /dev/ttyS0
+      <li>Mute tracks
+      <li>Add tracks
+      <li>Edit some track parameters (name, program, channel)
+      <li>Selecting input and output channels
+      <li>Monitor a MIDI track
+      <li>Record, store and play MIDI and Audio Tracks
+      <li>MIDI isn't stored in MIDI files.
+      <li>Audio is stored to and read from 44100Hz, 16 Bit, stero WAV
+          Files
+      <li>automatically increase channel when creating a new midi track
+      <li>midi tracks for the same channel should share the program
+    </ul>
+
+    <p>
+    Some known issues to be fixed next:
+    </p>
+    
+    <ul>
+      <li>muting an audio seems to stop the audio track
+          (which seems a fine idea but when resuming we should jump
+          to the correct position)
+      <li>converting the audio input to mono is currently
+          hard encoded and not an option
+      <li>need to change the volume and pan of tracks
+      <li>mmap needed when playing audio tracks?
+      <li>monitor doesn't work on audio
+      <li>optional simple echo effect on audio track
+      <li>metronom
+      <li>loops
+      <li>graphical midi event editor
+      <li>after loading a new midi track the track window on
+          the left is accessing non existent models (trackname)
+    </ul>
+    
+    <p>
+    The next steps will be to:
+    </p>
+    
+    <ul>
+      <li>Stop'n Resume playing a MIDI Track
+      <li>Show the current time in the Transport Window
+      <li>Configure IO Ports (Video, Audio, MIDI)
+      <li>Load'n Store IO Port Configuration
+      <li>...
+      <li>Multiple Sequences
+      <li>Arrange Sequences
+      <li>Cut Sequences
+      <li>...
+      <li>Video
+      <li>...
+      <li>Images (ie. JPEG or TOADs vector graphics)
+      <li>...
+    </ul>
+    
+    <h2>Tips</h2>
+
+    <h3>Audio</h3>
+    
+    <p>Modesto uses ALSA for audio input and output. It doesn't provide
+    access to the mixer controlls but another program like 
+    <code>alsamixer</code> can be used instead.<br>
+    The space bar will toggle capturing (aka recording) and the 'M' key will
+    toggle muting.</p>
+
+    <p>With the following option, microphone input will not be send 
+    directly to the soundcards output but is routed through Modesto:</p>
+    <ul>
+      <li>Mic: Capture &amp; mute on
+      <li>AD Input: Set mute to on
+    </ul>
+    <p>You may also want set "Mic Boost" to on (by disabling) mute.</p>
+    
+  </body>
+</html>
